@@ -13,5 +13,6 @@ public class Q1 {
                 hcf = i;
         }
         System.out.println(hcf);
+        sc.close();
     }
 }
