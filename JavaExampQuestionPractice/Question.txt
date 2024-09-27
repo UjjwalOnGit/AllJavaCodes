@@ -1,63 +1,25 @@
-Write a program to enter two numbers and check whether they are co-prime or not.
-[Two numbers are said to be co-prime, if their HCF is 1 (one).]
-Sample Input: 14, 15
-Sample Output: They are co-prime.
+Q1   Write a program to enter two numbers and check whether they are co-prime or not.
+    [Two numbers are said to be co-prime, if their HCF is 1 (one).]
+    Sample Input: 14, 15
+    Sample Output: They are co-prime.
 
 
-A number is said to be Duck if the digit zero is (0) present in it. Write a program to accept a number and check whether the number is Duck or not. The program displays the message accordingly. (The number must not begin with zero)
-Sample Input: 5063
-Sample Output: It is a Duck number.
-Sample Input:  7453
-Sample Output: It is not a Duck number.
+Q2  A number is said to be Duck if the digit zero is (0) present in it. Write a program to accept a number and check whether the number is Duck or not. The program displays the message accordingly. (The number must not begin with zero)
+    Sample Input: 5063
+    Sample Output: It is a Duck number.
+    Sample Input:  7453
+    Sample Output: It is not a Duck number.
 
 
-Write a program to display all the 'Buzz Numbers' between p and q (where p<q). A 'Buzz Number' is the number which ends with 7 or is divisible by 7.
-
-Write a menu driven class to accept a number from the user and check whether it is a Palindrome or a Perfect number.
-
-(a) Palindrome number: (A number is a Palindrome which when read in reverse order is same as in the  right order)
-
-Example: 11, 101, 151 etc.
-
-(b) Perfect number: (A number is called Perfect if it is equal to the sum of its factors other than the number itself.)
-
-Example: 6 = 1 + 2 + 3
+Q3  Write a program to display all the 'Buzz Numbers' between p and q (where p<q). A 'Buzz Number' is the number which ends with 7 or is divisible by 7.
 
 
-A Dudeney number is a positive integer that is a perfect cube such that the sum of its digits is equal to the cube root of the number. Write a program to input a number and check and print whether it is a Dudeney number or not.
-
-Example:
-
-Consider the number 512.
-
-Sum of digits = 5 + 1 + 2 = 8
-Cube root of 512 = 8
-
-As Sum of digits = Cube root of Number hence 512 is a Dudeney number.
-
-
-A tech number has even number of digits. If the number is split in two equal halves, then the square of sum of these halves is equal to the number itself. Write a program to generate and print all four digits tech numbers.
-
-Example:
-
-Consider the number 3025
-
-Square of sum of the halves of 3025 = (30 + 25)2
-= (55)2
-= 3025 is a tech number.
-
-
-Write a program to display all the numbers between m and n input from the keyboard (where m<n, m>0, n>0), check and print the numbers that are perfect square. e.g. 25, 36, 49, are said to be perfect square numbers.
-
-
-The Greatest Common Divisor (GCD) of two integers is calculated by the continued division method. Divide the larger number by the smaller, the remainder then divides the previous divisor. The process repeats unless the remainder reaches to zero. The last divisor results in GCD.
-
-Sample Input: 45, 20
-Sample Output: GCD=5
-
-
-Write a program to input a three digit number. Use a method int Armstrong(int n) to accept the number. The method returns 1, if the number is Armstrong, otherwise zero(0).
-
-Sample Input: 153
-Sample Output: 153 ⇒ 13 + 53 + 33 = 153
-It is an Armstrong Number.
+Q4  Write a menu driven class to accept a number from the user and check whether it is a Palindrome or a Perfect number.
+    (a) Palindrome number: (A number is a Palindrome which when read in reverse order is same as in the  right order)
+    Example: 11, 101, 151 etc.
+    (b) Perfect number: (A number is called Perfect if it is equal to the sum of its factors other than the number itself.)
+    Example: 6 = 1 + 2 + 3
+    
+Q5  difine a class to declare an integer array of size 20 of doubledata type , accept the elements into the array and perform the folling opperation
+    (a)calculate and print the sum of array
+    (b)calculate and print the highest value of array
