@@ -1,3 +1,4 @@
+-+
 Q1   Write a program to enter two numbers and check whether they are co-prime or not.
     [Two numbers are said to be co-prime, if their HCF is 1 (one).]
     Sample Input: 14, 15
