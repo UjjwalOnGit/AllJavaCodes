@@ -11,7 +11,7 @@ A collection of beginner to intermediate level Java programs for practice, revis
 This repo contains:
 - ✅ Basic logic building problems
 - ✅ Input using `Scanner`
-- ✅ Topics like strings, arrays, recursion, math, and patterns
+- ✅ Topics like strings, arrays, math, and patterns
 - ✅ Clean code with beginner-friendly explanations
 
 ---
