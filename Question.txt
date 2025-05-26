@@ -1,26 +1,44 @@
--+
-Q1   Write a program to enter two numbers and check whether they are co-prime or not.
-    [Two numbers are said to be co-prime, if their HCF is 1 (one).]
-    Sample Input: 14, 15
-    Sample Output: They are co-prime.
+1. Reverse a String  
+   - Take a string input from the user and reverse it using Java logic.  
+   - Example: Input: "hello" → Output: "olleh"
 
+2. Check if a String is Palindrome  
+   - Determine whether a given string reads the same forwards and backwards.  
+   - Example: "madam" → Palindrome, "hello" → Not Palindrome
 
-Q2  A number is said to be Duck if the digit zero is (0) present in it. Write a program to accept a number and check whether the number is Duck or not. The program displays the message accordingly. (The number must not begin with zero)
-    Sample Input: 5063
-    Sample Output: It is a Duck number.
-    Sample Input:  7453
-    Sample Output: It is not a Duck number.
+3. Print Fibonacci Series  
+   - Print the first 'n' numbers in the Fibonacci sequence.  
+   - Sequence starts with 0, 1 and each next number is the sum of the previous two.
 
+4. Prime Number Check  
+   - Check if the number entered by the user is a prime number.  
+   - A prime number has exactly 2 factors: 1 and itself (e.g., 2, 3, 5, 7...)
 
-Q3  Write a program to display all the 'Buzz Numbers' between p and q (where p<q). A 'Buzz Number' is the number which ends with 7 or is divisible by 7.
+5. Factorial Using Recursion  
+   - Calculate the factorial of a number using a recursive method.  
+   - Example: 5! = 5×4×3×2×1 = 120
 
+6. Armstrong Number Check (3-digit)  
+   - Check if a 3-digit number is an Armstrong number.  
+   - A number is Armstrong if sum of cubes of its digits equals the number itself.  
+   - Example: 153 = 1³ + 5³ + 3³ = 153
 
-Q4  Write a menu driven class to accept a number from the user and check whether it is a Palindrome or a Perfect number.
-    (a) Palindrome number: (A number is a Palindrome which when read in reverse order is same as in the  right order)
-    Example: 11, 101, 151 etc.
-    (b) Perfect number: (A number is called Perfect if it is equal to the sum of its factors other than the number itself.)
-    Example: 6 = 1 + 2 + 3
-    
-Q5  difine a class to declare an integer array of size 20 of doubledata type , accept the elements into the array and perform the folling opperation
-    (a)calculate and print the sum of array
-    (b)calculate and print the highest value of array
+7. Swap Two Numbers Without Temp Variable  
+   - Swap two integer values input by the user without using a third (temp) variable.  
+   - Use arithmetic operations to do this trick.
+
+8. Find GCD of Two Numbers  
+   - Find the Greatest Common Divisor of two integers using the Euclidean algorithm.  
+   - Example: GCD of 20 and 30 is 10
+
+9. Count Vowels and Consonants  
+   - Count how many vowels and consonants are present in a string input.  
+   - Ignore special characters and digits.
+
+10. Sort an Array using Bubble Sort  
+    - Accept an array from the user and sort it in ascending order using the bubble sort technique.  
+    - Keep swapping adjacent elements if they are in the wrong order.
+
+11. Perform Linear Search in Array  
+    - Search for a specific number in an array using linear search.  
+    - Check each element one by one until you find the target number or reach the end.
